@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "GetMyGadget",
+    "scheme": "GetMyGadget",
     "slug": "GetMyGadget",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +19,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.adityabhardwaj058.GetMyGadget"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1e73c23-3618-4acb-aac6-cc94be6b3628"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
   }
 }
